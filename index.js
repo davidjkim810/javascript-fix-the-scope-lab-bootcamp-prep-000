@@ -10,7 +10,6 @@ var animal = "cat"
 }
 
 function add2(n) {
-  var n = parseInt(698)
   return n + two
 
   // Feel free to move things around!
