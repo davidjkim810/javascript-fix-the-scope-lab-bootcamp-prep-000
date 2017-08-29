@@ -3,7 +3,6 @@ var animal = 'cat'
 function myAnimal() {
   return animal
 }
-}
 
 function yourAnimal() {
   // How can we make sure that this function
@@ -20,7 +19,7 @@ function add2(n) {
 }
 
 var funkyFunction = function() {
-  return function() {
+  return function() { 
     return "FUNKY!"
   }
 }
