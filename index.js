@@ -1,14 +1,16 @@
-var animal = 'dog'
+var animal = 'cat'
 
 function myAnimal() {
-  return animal
+  x= dog
+  console.log(x)
 }
 
 function yourAnimal() {
   // How can we make sure that this function
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
-  return animal
+  y = cat
+   console.log(y)
 }
 
 function add2(n) {
@@ -19,7 +21,7 @@ function add2(n) {
 }
 
 var funkyFunction = function() {
-  return function() {
+  return function() { 
     return "FUNKY!"
   }
 }
